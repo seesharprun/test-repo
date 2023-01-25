@@ -1,15 +1,4 @@
 {
     "image": "mcr.microsoft.com/devcontainers/dotnet:6.0",
-    "extensions": [
-        "ms-dotnettools.csharp",
-        "ms-vscode.azurecli",
-        "ms-azuretools.vscode-azurefunctions",
-        "ms-vscode.azure-account"
-    ],
-    "features": {
-        "ghcr.io/devcontainers/features/azure-cli:1": {},
-        "ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {
-			"version": "latest"
-		} 
-    }
+    "workspaceFolder": "exercise-1/"
 }
